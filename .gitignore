@@ -1,0 +1,2 @@
+# .env should contain "DISCORD_TOKEN=<token>"
+.env
