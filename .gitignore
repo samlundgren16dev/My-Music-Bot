@@ -1,2 +1,22 @@
-# .env should contain "DISCORD_TOKEN=<token>"
+# Environment variables
 .env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
