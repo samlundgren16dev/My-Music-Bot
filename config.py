@@ -13,7 +13,7 @@ YTDL_OPTS = {
     "cookiefile": "/home/ubuntu/My-Music-Bot/cookies.txt",
     "extractor_args": {
         "youtube": {
-            "player_client": ["web", "android_vr", "tv"]
+            "player_client": ["ios", "android_vr"]
         }
     },
 }
