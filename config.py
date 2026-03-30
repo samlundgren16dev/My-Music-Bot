@@ -11,11 +11,6 @@ YTDL_OPTS = {
     "nocheckcertificate": True,
     "source_address": "0.0.0.0",
     "cookiefile": "/home/ubuntu/My-Music-Bot/cookies.txt",
-    "extractor_args": {
-        "youtube": {
-            "player_client": ["ios", "android_vr"]
-        }
-    },
 }
 
 # YT-DLP options for multi-result search
