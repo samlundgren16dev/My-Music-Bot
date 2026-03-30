@@ -1,0 +1,16 @@
+[Unit]
+Description=Discord Music Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/discord-music-bot/My-Music-Bot
+EnvironmentFile=/home/ubuntu/discord-music-bot/My-Music-Bot/.env
+ExecStart=/home/ubuntu/discord-music-bot/venv/bin/python main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
